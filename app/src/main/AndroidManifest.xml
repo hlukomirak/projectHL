@@ -25,9 +25,8 @@
             android:label="Workouts" />
         <activity
             android:name=".PushActivity"
-            android:label="Pushups"
-            >
-        </activity>
+            android:label="Pushups"></activity>
+        <activity android:name=".SqatActivity"></activity>
     </application>
 
 </manifest>
