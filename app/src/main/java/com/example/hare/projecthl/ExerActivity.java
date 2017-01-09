@@ -13,6 +13,8 @@ import android.widget.TableLayout;
 public class ExerActivity extends AppCompatActivity {
 
     ImageButton bt1;
+    ImageButton bt3;
+    ImageButton bt4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,10 +23,6 @@ public class ExerActivity extends AppCompatActivity {
         TabHost tabHost = (TabHost)findViewById(R.id.tabHost);
         tabHost.setup();
 
-        TabHost.TabSpec tabSpec = tabHost.newTabSpec("All");
-        tabSpec.setContent(R.id.All);
-        tabSpec.setIndicator("ALL");
-        tabHost.addTab(tabSpec);
 
         TabHost.TabSpec tabSpec1 = tabHost.newTabSpec("Chest");
         tabSpec1.setContent(R.id.Chest);
@@ -41,6 +39,11 @@ public class ExerActivity extends AppCompatActivity {
         tabSpec3.setIndicator("ABS");
         tabHost.addTab(tabSpec3);
 
+        TabHost.TabSpec tabSpec4 = tabHost.newTabSpec("LEGS");
+        tabSpec3.setContent(R.id.LGS);
+        tabSpec3.setIndicator("LEGS");
+        tabHost.addTab(tabSpec4);
+
 
         bt1 = (ImageButton) findViewById(R.id.imageButton2);
 
@@ -51,6 +54,32 @@ public class ExerActivity extends AppCompatActivity {
                 Intent intentpu = new Intent(ExerActivity.this, PushActivity.class);
 
                 startActivity(intentpu);
+
+            }
+        });
+
+        bt3 = (ImageButton) findViewById(R.id.imageButton9);
+
+        bt3.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intentba = new Intent(ExerActivity.this, BurpActivity.class);
+
+                startActivity(intentba);
+
+            }
+        });
+
+        bt4 = (ImageButton) findViewById(R.id.imageButton10);
+
+        bt4.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+
+                startActivity(intentwd);
 
             }
         });
