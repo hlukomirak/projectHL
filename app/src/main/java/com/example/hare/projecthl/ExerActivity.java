@@ -40,8 +40,8 @@ public class ExerActivity extends AppCompatActivity {
         tabHost.addTab(tabSpec3);
 
         TabHost.TabSpec tabSpec4 = tabHost.newTabSpec("LEGS");
-        tabSpec3.setContent(R.id.LGS);
-        tabSpec3.setIndicator("LEGS");
+        tabSpec4.setContent(R.id.LEGS);
+        tabSpec4.setIndicator("LEGS");
         tabHost.addTab(tabSpec4);
 
 
