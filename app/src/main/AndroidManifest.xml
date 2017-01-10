@@ -28,7 +28,20 @@
             android:label="Pushups" />
         <activity android:name=".SqatActivity" />
         <activity android:name=".BurpActivity" />
-        <activity android:name=".WideActivity"></activity>
+        <activity android:name=".WideActivity" />
+        <activity android:name=".LeftActivity" />
+        <activity android:name=".RigtActivity" />
+        <activity android:name=".TdipActivity" />
+        <activity android:name=".KickActivity" />
+        <activity android:name=".PlnkActivity" />
+        <activity android:name=".CrncActivity" />
+        <activity android:name=".JumpActivity" />
+        <activity android:name=".WallAtivity" />
+        <activity android:name=".StepActivity" />
+        <activity android:name=".Wor1Activity" />
+        <activity android:name=".Wor2Activity" />
+        <activity android:name=".Wor3Activity" />
+        <activity android:name=".Wor4Activity"></activity>
     </application>
 
 </manifest>
