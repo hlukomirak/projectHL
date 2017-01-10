@@ -93,7 +93,7 @@ public class ExerActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+                Intent intentwd = new Intent(ExerActivity.this, LeftActivity.class);
 
                 startActivity(intentwd);
 
@@ -106,7 +106,7 @@ public class ExerActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+                Intent intentwd = new Intent(ExerActivity.this, RigtActivity.class);
 
                 startActivity(intentwd);
 
@@ -119,7 +119,7 @@ public class ExerActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+                Intent intentwd = new Intent(ExerActivity.this, TdipActivity.class);
 
                 startActivity(intentwd);
 
@@ -132,7 +132,7 @@ public class ExerActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+                Intent intentwd = new Intent(ExerActivity.this, KickActivity.class);
 
                 startActivity(intentwd);
 
@@ -145,7 +145,7 @@ public class ExerActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+                Intent intentwd = new Intent(ExerActivity.this, PlnkActivity.class);
 
                 startActivity(intentwd);
 
@@ -158,7 +158,7 @@ public class ExerActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+                Intent intentwd = new Intent(ExerActivity.this, CrncActivity.class);
 
                 startActivity(intentwd);
 
@@ -171,7 +171,7 @@ public class ExerActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+                Intent intentwd = new Intent(ExerActivity.this, JumpActivity.class);
 
                 startActivity(intentwd);
 
@@ -183,7 +183,7 @@ public class ExerActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+                Intent intentwd = new Intent(ExerActivity.this, WallAtivity.class);
 
                 startActivity(intentwd);
 
@@ -196,7 +196,7 @@ public class ExerActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+                Intent intentwd = new Intent(ExerActivity.this, StepActivity.class);
 
                 startActivity(intentwd);
 
