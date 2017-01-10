@@ -9,8 +9,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:label="Home">
+            android:name=".SplsActivity"
+
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,8 +29,12 @@
             android:name=".PushActivity"
             android:label="Pushups" />
         <activity android:name=".SqatActivity" />
-        <activity android:name=".BurpActivity" />
-        <activity android:name=".WideActivity" />
+        <activity
+            android:name=".BurpActivity"
+            android:label="Burpee" />
+        <activity
+            android:name=".WideActivity"
+            android:label="Wide-hands Pushups" />
         <activity android:name=".LeftActivity" />
         <activity android:name=".RigtActivity" />
         <activity android:name=".TdipActivity" />
@@ -41,7 +47,10 @@
         <activity android:name=".Wor1Activity" />
         <activity android:name=".Wor2Activity" />
         <activity android:name=".Wor3Activity" />
-        <activity android:name=".Wor4Activity"></activity>
+        <activity android:name=".Wor4Activity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Home"></activity>
     </application>
 
 </manifest>

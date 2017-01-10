@@ -1,8 +1,8 @@
 package com.example.hare.projecthl;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -23,7 +23,7 @@ public class WorkActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intentpu = new Intent(WorkActivity.this, PushActivity.class);
+                Intent intentpu = new Intent(WorkActivity.this, Wor1Activity.class);
 
                 startActivity(intentpu);
 
@@ -36,7 +36,7 @@ public class WorkActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intentpu = new Intent(WorkActivity.this, PushActivity.class);
+                Intent intentpu = new Intent(WorkActivity.this, Wor3Activity.class);
 
                 startActivity(intentpu);
 
@@ -49,7 +49,7 @@ public class WorkActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intentpu = new Intent(WorkActivity.this, PushActivity.class);
+                Intent intentpu = new Intent(WorkActivity.this, Wor4Activity.class);
 
                 startActivity(intentpu);
 
@@ -62,7 +62,7 @@ public class WorkActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intentpu = new Intent(WorkActivity.this, PushActivity.class);
+                Intent intentpu = new Intent(WorkActivity.this, Wor2Activity.class);
 
                 startActivity(intentpu);
 
