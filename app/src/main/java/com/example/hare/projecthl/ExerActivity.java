@@ -15,6 +15,7 @@ public class ExerActivity extends AppCompatActivity {
     ImageButton bt1;
     ImageButton bt3;
     ImageButton bt4;
+    ImageButton bt5,bt6,bt7,bt8,bt9,bt10,bt11,bt12,bt13;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,11 +24,13 @@ public class ExerActivity extends AppCompatActivity {
         TabHost tabHost = (TabHost)findViewById(R.id.tabHost);
         tabHost.setup();
 
-
         TabHost.TabSpec tabSpec1 = tabHost.newTabSpec("Chest");
         tabSpec1.setContent(R.id.Chest);
         tabSpec1.setIndicator("CHEST");
         tabHost.addTab(tabSpec1);
+
+
+
 
         TabHost.TabSpec tabSpec2 = tabHost.newTabSpec("Arms");
         tabSpec2.setContent(R.id.Arms);
@@ -74,6 +77,122 @@ public class ExerActivity extends AppCompatActivity {
         bt4 = (ImageButton) findViewById(R.id.imageButton10);
 
         bt4.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+
+                startActivity(intentwd);
+
+            }
+        });
+
+        bt5 = (ImageButton) findViewById(R.id.imageButton12);
+
+        bt5.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+
+                startActivity(intentwd);
+
+            }
+        });
+
+        bt6 = (ImageButton) findViewById(R.id.imageButton11);
+
+        bt6.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+
+                startActivity(intentwd);
+
+            }
+        });
+
+        bt7 = (ImageButton) findViewById(R.id.imageButton8);
+
+        bt7.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+
+                startActivity(intentwd);
+
+            }
+        });
+
+        bt8 = (ImageButton) findViewById(R.id.imageButton14);
+
+        bt8.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+
+                startActivity(intentwd);
+
+            }
+        });
+
+        bt9 = (ImageButton) findViewById(R.id.imageButton15);
+
+        bt9.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+
+                startActivity(intentwd);
+
+            }
+        });
+
+        bt10 = (ImageButton) findViewById(R.id.imageButton13);
+
+        bt10.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+
+                startActivity(intentwd);
+
+            }
+        });
+
+        bt11 = (ImageButton) findViewById(R.id.imageButton18);
+
+        bt11.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+
+                startActivity(intentwd);
+
+            }
+        });
+        bt12 = (ImageButton) findViewById(R.id.imageButton17);
+
+        bt12.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intentwd = new Intent(ExerActivity.this, WideActivity.class);
+
+                startActivity(intentwd);
+
+            }
+        });
+
+        bt13 = (ImageButton) findViewById(R.id.imageButton16);
+
+        bt13.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {

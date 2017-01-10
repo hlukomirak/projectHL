@@ -41,26 +41,26 @@
                     android:id="@+id/Chest"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:weightSum="1">
+                    android:weightSum="1"
+                    android:orientation="vertical">
 
                     <ImageButton
-                        android:layout_height="143dp"
+                        android:layout_height="wrap_content"
                         app:srcCompat="@drawable/burpee"
                         android:id="@+id/imageButton9"
-                        android:layout_width="112dp" />
+                        android:layout_width="match_parent" />
 
                     <ImageButton
-                        android:layout_height="143dp"
+                        android:layout_height="wrap_content"
                         app:srcCompat="@drawable/wdhand"
                         android:id="@+id/imageButton10"
-                        android:layout_width="112dp" />
+                        android:layout_width="match_parent" />
 
                     <ImageButton
                         app:srcCompat="@drawable/pushup2"
                         android:id="@+id/imageButton2"
-                        android:layout_height="143dp"
-                        android:layout_width="112dp" />
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -69,6 +69,23 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/exer3"
+                        android:id="@+id/imageButton12" />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/exer2"
+                        android:id="@+id/imageButton11" />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/exer1"
+                        android:id="@+id/imageButton8" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -77,6 +94,23 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/exer8"
+                        android:id="@+id/imageButton14" />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/exer9"
+                        android:id="@+id/imageButton15" />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/exer7"
+                        android:id="@+id/imageButton13" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -85,6 +119,23 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/exer4"
+                        android:id="@+id/imageButton18" />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/exer5"
+                        android:id="@+id/imageButton17" />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/exer6"
+                        android:id="@+id/imageButton16" />
                 </LinearLayout>
 
             </FrameLayout>
